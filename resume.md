@@ -60,7 +60,7 @@ An app to keep track of all user transactions & display a bar graph showing tran
 - **Material UI** Frontend for Android & **Cupertino** for iOS devices
 - **Responsive** to all screen sizes,**Adaptive** to platform ( iOS / Android / Web ) & with Layout switching between Portrait / Landscape
 
-### <span class="project-heading">Boyo-Hotels App<div class="link">[GitHub](https://github.com/iamartyaa/BoyoHotels-App) </div></span> <span class="technologies">1 week (9+ hours)</span>
+### <span class="project-heading">Boyo-Hotels App<div class="link">[GitHub](https://github.com/iamartyaa/BoyoHotels-App) </div></span> <span class="technologies">2 week (15+ hours)</span>
 
 A Hotel booking app built in similarity with Oyo app (as the name itself gives a hint).
 
@@ -70,7 +70,7 @@ A Hotel booking app built in similarity with Oyo app (as the name itself gives a
 
 ### <span class="project-heading">HappyMeals App<div class="link">[GitHub](https://github.com/iamartyaa/HappyMeals-App) </div></span> <span class="technologies">1 week (6+ hours)</span>
 
-An app to display Meals according to different Cusines.
+An app to display Meals according to different Cusines alongwith various filters available.
 
 - Built with **Flutter & Dart** on the frontend using **Material UI**
 - Added features like **Favourites & Filters** to render meals according to the filter selected (vegetarian, vegan, gluten-free etc).
