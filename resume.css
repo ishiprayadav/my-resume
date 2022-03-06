@@ -1,0 +1,193 @@
+:root {
+  --accent-color: #108e80;
+  --bg-accent: #2f343d;
+  --text-color: #3d3d3d;
+}
+hr {
+  margin: 2px;
+  border: 1px dotted #fff;
+}
+body {
+  color: var(--text-color);
+  background: var(--backgound-color);
+  line-height: 1;
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-family: "Calibri", "Times New Roman";
+}
+#resume {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background: var(--background-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+h1 {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 200%;
+  margin: 10px;
+  padding-bottom: 0px;
+}
+h2 {
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color);
+  font-size: 115%;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+h3 {
+  color: var(--text-color);
+  font-size: 95%;
+  font-weight: 600;
+  margin: 0.8em 0 0.12em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  color: var(--text-color);
+  margin: 0;
+  padding: 5px 0px 0px 6px;
+  font-size: 90%;
+}
+h4 + ul {
+  color: var(--text-color);
+  margin-left: 27px;
+  font-size: 90%;
+}
+
+p {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-size: 93%;
+}
+ul {
+  padding: 2px;
+  margin: 0 1.25em;
+  font-size: 90%;
+}
+li {
+  padding-top: 3.5px;
+}
+/* ul immediately after h1 = contact list */
+h1 + ul {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+h1 + ul > li {
+  display: inline;
+  white-space: pre;
+}
+h1 + ul > li:after {
+  content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+  content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+  margin: 1.5em 0;
+}
+
+ol {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+ol > li {
+  padding-top: 5px;
+}
+
+a,
+a:link,
+a:visited {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.link {
+  display: inline;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.technologies {
+  font-weight: 400;
+  color: var(--accent-color);
+  font-size: 13px;
+}
+.marks {
+  font-weight: 600;
+  display: inline;
+}
+.project-heading {
+  font-size: 15px;
+}
+.ed-heading {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  body {
+    font-size: 13.3pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 15px 7.5px 15px 7.5px;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+}
+@page {
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: A4;
+  margin: 0.3in 0.3in;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .project-heading {
+    font-size: 15px;
+  }
+}

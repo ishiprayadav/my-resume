@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amartya Yadav</title>
+<style>
+:root {
+  --accent-color: #108e80;
+  --bg-accent: #2f343d;
+  --text-color: #3d3d3d;
+}
+hr {
+  margin: 2px;
+  border: 1px dotted #fff;
+}
+body {
+  color: var(--text-color);
+  background: var(--backgound-color);
+  line-height: 1;
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-family: "Calibri", "Times New Roman";
+}
+#resume {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  background: var(--background-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+h1 {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 200%;
+  margin: 10px;
+  padding-bottom: 0px;
+}
+h2 {
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color);
+  font-size: 115%;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+h3 {
+  color: var(--text-color);
+  font-size: 95%;
+  font-weight: 600;
+  margin: 0.8em 0 0.12em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  color: var(--text-color);
+  margin: 0;
+  padding: 5px 0px 0px 6px;
+  font-size: 90%;
+}
+h4 + ul {
+  color: var(--text-color);
+  margin-left: 27px;
+  font-size: 90%;
+}
+
+p {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-size: 93%;
+}
+ul {
+  padding: 2px;
+  margin: 0 1.25em;
+  font-size: 90%;
+}
+li {
+  padding-top: 3.5px;
+}
+/* ul immediately after h1 = contact list */
+h1 + ul {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+h1 + ul > li {
+  display: inline;
+  white-space: pre;
+}
+h1 + ul > li:after {
+  content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+  content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+  margin: 1.5em 0;
+}
+
+ol {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+ol > li {
+  padding-top: 5px;
+}
+
+a,
+a:link,
+a:visited {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.link {
+  display: inline;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.technologies {
+  font-weight: 400;
+  color: var(--accent-color);
+  font-size: 13px;
+}
+.marks {
+  font-weight: 600;
+  display: inline;
+}
+.project-heading {
+  font-size: 15px;
+}
+.ed-heading {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  body {
+    font-size: 13.3pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 15px 7.5px 15px 7.5px;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+}
+@page {
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: A4;
+  margin: 0.3in 0.3in;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .project-heading {
+    font-size: 15px;
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<h1>Amartya Yadav</h1>
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#97;&#109;&#97;&#114;&#116;&#121;&#97;&#121;&#97;&#100;&#97;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#105;&#97;&#109;&#97;&#114;&#116;&#121;&#97;&#121;&#97;&#100;&#97;&#118;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li><a href="https://github.com/iamartyaa">GitHub</a></li>
+<li><a href="https://www.linkedin.com/in/iamartyaa/">LinkedIn</a></li>
+<li><a href="https://codechef.com/users/evisleye">CodeChef</a></li>
+<li><a href="https://leetcode.com/iamartyaa/">LeetCode</a></li>
+<li><a href="https://codeforces.com/profile/evilseye">CodeForces</a></li>
+</ul>
+<!-- - [PortFolio](https://iamartyaa.github.io) -->
+
+<h2>Education</h2>
+<h3><span class="ed-heading">Bachelor of Technology in Information Technology </span > <span class="technologies">2020 &ndash; 2024 </span></h3>
+<p>Harcourt Butler Technical University- Kanpur, Uttar Pradesh, India
+<br>
+CGPA: 9.0/10 </p>
+<h2>Skills &amp; Technologies</h2>
+<ul>
+<li><strong>Languages</strong>: Python, C/C++ , Dart</li>
+<li><strong>Frontend</strong>: Material UI, iOS Cupertino</li>
+<li><strong>Technologies</strong>: Flutter , Postman , Git </li>
+<li><strong>Cloud</strong>: Google Cloud Platform </li>
+</ul>
+<h2>Experience</h2>
+<h3>Technical Content Writer: GeeksforGeeks <span class="technologies">October 2021 &ndash; Present</span></h3>
+<p><a href="https://auth.geeksforgeeks.org/user/iamartyayadav/profile">GeeksforGeeks</a> is a Computer Science portal for geeks.</p>
+<!-- #### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div> -->
+
+<ul>
+<li>Published &amp; Improved articles on <strong>GeeksforGeeks</strong> portal on categories like Data Structures &amp; Algorithms, SVG generators, protocols etc.</li>
+<li>Published : <a href="https://www.geeksforgeeks.org/what-is-svg-generator-in-html5/">SVG Generators</a> , <a href="https://www.geeksforgeeks.org/what-is-the-benefit-of-eigrp/">EIGRP Protocol</a> , Improved : <a href="https://www.geeksforgeeks.org/recursion/">Recursion</a> etc</li>
+</ul>
+<h3><span>Hacktoberfest Maintainer</span> <span class="technologies">September 2021 &ndash; November 2021</span></h3>
+<p><a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> is a <strong>Month-long</strong> Open Source program powered by DigitalOcean, AppWrite, Deepsource, etc.</p>
+<ul>
+<li>Created &amp; maintained GitHub Repository <strong>Zoop Hacktoberfest</strong> for Hacktoberfest 2021 with HTML, CSS, JavaScript &amp; GitHub API </li>
+<li>Guided newbies to Open-Source contributions with over <strong>400+ Commits</strong> by <strong>100+ Contributors</strong>. GitHub Repo: <strong><a href="https://github.com/evilseye/Zoop-Hacktoberfest">Zoop-Hacktoberfest</a></strong> </li>
+</ul>
+<h3><span>Postman Student Expert</span> <span class="technologies">January 2022</span></h3>
+<p><a href="https://www.postman.com/company/student-program/">Postman Student Expert</a> is a <strong>Week-long</strong> program powered by Postman.</p>
+<ul>
+<li>Proficient in <strong>Creating &amp; Testing APIs</strong> in Postman</li>
+<li>Edit documentation for a collection &amp; Write <strong>pre-request scripts &amp; tests</strong> for API calls </li>
+<li>Digitally verified Badge : <strong><a href="https://badgr.com/public/assertions/0GUB-Rf7TkCqSkKVWCgsjw?identity__email=iamartyayadav@gmail.com">Postman Student Expert | Amartya Yadav</a></strong></li>
+</ul>
+<h2>Projects</h2>
+<h3><span class="project-heading">MyWallet App <div class="link"><a href="https://github.com/iamartyaa/MyWallet-App">GitHub</a> </div></span> <span class="technologies"> 1 Week (6+ hours)</span></h3>
+<p>An app to keep track of all user transactions &amp; display a bar graph showing transactions made on each day over the last week.</p>
+<ul>
+<li>Built with <strong>Flutter</strong> using the <strong>Dart</strong> &amp; Flutter widgets</li>
+<li><strong>Material UI</strong> Frontend for Android &amp; <strong>Cupertino</strong> for iOS devices</li>
+<li><strong>Responsive</strong> to all screen sizes,<strong>Adaptive</strong> to platform ( iOS / Android / Web ) &amp; with Layout switching between Portrait / Landscape</li>
+</ul>
+<h3><span class="project-heading">Boyo-Hotels App<div class="link"><a href="https://github.com/iamartyaa/BoyoHotels-App">GitHub</a> </div></span> <span class="technologies">1 week (9+ hours)</span></h3>
+<p>A Hotel booking app built in similarity with Oyo app (as the name itself gives a hint).</p>
+<ul>
+<li>Built with <strong>Flutter &amp; Dart</strong> on the frontend using <strong>Material UI</strong></li>
+<li>Similar screen layout as that of Oyo app with features like Booking Hotel, displaying User Bookings, marking Hotels as Favourites &amp; much more coming soon</li>
+<li>Made with an aim to incoperate various <strong>Flutter Widgets</strong> &amp; display proficiency in Flutter &amp; Dart internals</li>
+</ul>
+<h3><span class="project-heading">HappyMeals App<div class="link"><a href="https://github.com/iamartyaa/HappyMeals-App">GitHub</a> </div></span> <span class="technologies">1 week (6+ hours)</span></h3>
+<p>An app to display Meals according to different Cusines.</p>
+<ul>
+<li>Built with <strong>Flutter &amp; Dart</strong> on the frontend using <strong>Material UI</strong></li>
+<li>Added features like <strong>Favourites &amp; Filters</strong> to render meals according to the filter selected (vegetarian, vegan, gluten-free etc).</li>
+</ul>
+<h2>Achievements</h2>
+<ul>
+<li><strong>Pupil</strong> at Codeforces (max. 1220) &amp; Codechef (max. 1796) , <strong>Top 20%</strong> at LeetCode globally</li>
+<li><strong>Google Hashcode</strong> 2022 : Global rank 2990 , India rank 1204</li>
+<li><strong>Rank 2</strong> in <strong>CodeChef HBTU Chapter</strong> programming contest hosted on CodeChef. Won limited edition CodeChef water bottle  </li>
+<li>Certified in Problem Solving (Basic) HackerRank </li>
+<li>Completed both the tracks of 30 Days of Google Cloud Platform &amp; gained experience in tools like cloud shell, BigQuery, Cloud buckets, SQL, Compute Engines etc</li>
+<li>Certified by <strong>Milvus.io</strong> for resolving issues in their GitHub repo &amp; website during the Hacktoberfest 2021</li>
+<li>Certified in Git (Version Control System) / GitHub by <strong>LinkedIn Skill Assesment</strong> and <strong>Google</strong></li>
+</ul>
+<hr />
+<ul>
+<li>Global Rank <strong>148 of 21000+</strong> CodeChef Starters 19 (Div.3)</li>
+<li>Global Rank <strong>1171 of 17000+</strong> LeetCode BiWeekly contest 71 </li>
+</ul></div>
+</body>
+</html>
