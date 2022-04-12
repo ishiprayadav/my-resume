@@ -31,11 +31,11 @@ CGPA: 8.05/10
 
 ## Projects
 
-### <span class="project-heading">Library Management System <div class="link">[GitHub](https://github.com/ishiprayadav/Library management system/library management.cpp) </div></span> <span class="technologies"> 1 Week (6+ hours)</span>
+### <span class="project-heading">Library Management System <div class="link">[GitHub](https://github.com/ishiprayadav/My-Projects/tree/main/Library%20management%20system) </div></span> <span class="technologies"> 1 Week (6+ hours)</span>
 
 An application for assisting a librarian in managing books in a university.
 
-### <span class="project-heading">Cab Locator<div class="link">[GitHub](https://github.com/ishiprayadav/Cab Locator/CabLocator.cpp) </div></span> <span class="technologies">2 week (15+ hours)</span>
+### <span class="project-heading">Cab Locator<div class="link">[GitHub](https://github.com/ishiprayadav/My-Projects/tree/main/Cab%20Locator) </div></span> <span class="technologies">2 week (15+ hours)</span>
 
 A project which works on "Great Distance Formula".It helps in listing the name and ID of all Cab Drivers in 50km proximity of the user's coordinates.
 
