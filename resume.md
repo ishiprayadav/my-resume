@@ -19,10 +19,8 @@ CGPA: 9.0/10
 
 ## Skills & Technologies
 
-- **Languages**: Python, C/C++ , Dart
-- **Frontend**: Material UI, iOS Cupertino
-- **Technologies**: Flutter , Postman , Git 
-- **Cloud**: Google Cloud Platform 
+- **Languages**: Python, C/C++ , Dart - **Frontend**: Material UI, iOS Cupertino
+- **Technologies**: Flutter , Postman , Git - **Cloud**: Google Cloud Platform 
 
 ## Experience
 
@@ -33,7 +31,7 @@ CGPA: 9.0/10
 <!-- #### repo-report <div class="link">[GitHub](https://github.com/ljharb/repo-report)</div> -->
 
 - Published & Improved articles on **GeeksforGeeks** portal on categories like Data Structures & Algorithms, SVG generators, protocols etc.
-- Published : [SVG Generators](https://www.geeksforgeeks.org/what-is-svg-generator-in-html5/) , [EIGRP Protocol](https://www.geeksforgeeks.org/what-is-the-benefit-of-eigrp/) , Improved : [Recursion](https://www.geeksforgeeks.org/recursion/) etc
+<!-- - Published : [SVG Generators](https://www.geeksforgeeks.org/what-is-svg-generator-in-html5/) , [EIGRP Protocol](https://www.geeksforgeeks.org/what-is-the-benefit-of-eigrp/) , Improved : [Recursion](https://www.geeksforgeeks.org/recursion/) etc -->
 
 ### <span>Hacktoberfest Maintainer</span> <span class="technologies">September 2021 -- November 2021</span>
 
@@ -46,8 +44,8 @@ CGPA: 9.0/10
 
 [Postman Student Expert](https://www.postman.com/company/student-program/) is a **Week-long** program powered by Postman.
 
-- Proficient in **Creating & Testing APIs** in Postman
-- Edit documentation for a collection & Write **pre-request scripts & tests** for API calls 
+- Proficient in **Creating & Testing APIs** in Postman | Edit documentation & Write **pre-request scripts & tests** for API calls 
+<!-- - Edit documentation for a collection & Write **pre-request scripts & tests** for API calls  -->
 - Digitally verified Badge : **[Postman Student Expert | Amartya Yadav](https://badgr.com/public/assertions/0GUB-Rf7TkCqSkKVWCgsjw?identity__email=iamartyayadav@gmail.com)**
 
 ## Projects
@@ -56,8 +54,7 @@ CGPA: 9.0/10
 
 An app to keep track of all user transactions & display a bar graph showing transactions made on each day over the last week.
 
-- Built with **Flutter** using the **Dart** & Flutter widgets
-- **Material UI** Frontend for Android & **Cupertino** for iOS devices
+- Built with **Flutter** using the **Dart** & Flutter widgets |  **Material UI** Frontend for Android & **Cupertino** for iOS devices
 - **Responsive** to all screen sizes,**Adaptive** to platform ( iOS / Android / Web ) & with Layout switching between Portrait / Landscape
 
 ### <span class="project-heading">Boyo-Hotels App<div class="link">[GitHub](https://github.com/iamartyaa/BoyoHotels-App) </div></span> <span class="technologies">2 week (15+ hours)</span>
@@ -66,14 +63,13 @@ A Hotel booking app built in similarity with Oyo app (as the name itself gives a
 
 - Built with **Flutter & Dart** on the frontend using **Material UI**
 - Similar screen layout as that of Oyo app with features like Booking Hotel, displaying User Bookings, marking Hotels as Favourites & much more coming soon
-- Made with an aim to incoperate various **Flutter Widgets** & display proficiency in Flutter & Dart internals
+<!-- - Made with an aim to incoperate various **Flutter Widgets** & display proficiency in Flutter & Dart internals -->
 
 ### <span class="project-heading">HappyMeals App<div class="link">[GitHub](https://github.com/iamartyaa/HappyMeals-App) </div></span> <span class="technologies">1 week (6+ hours)</span>
 
 An app to display Meals according to different Cusines alongwith various filters available.
 
-- Built with **Flutter & Dart** on the frontend using **Material UI**
-- Added features like **Favourites & Filters** to render meals according to the filter selected (vegetarian, vegan, gluten-free etc).
+- Built with **Flutter & Dart** on the frontend using **Material UI** | Features like **Favourites & Filters** to render meals 
 
 ## Achievements
 
