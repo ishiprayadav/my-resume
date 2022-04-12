@@ -39,8 +39,9 @@ An application for assisting a librarian in managing books in a university.
 
 A project which works on "Great Distance Formula".It helps in listing the name and ID of all Cab Drivers in 50km proximity of the user's coordinates.
 
-## Achievements
+## Achievements and Responsibilities
 
 - **Codechef** (max. 1627) 
 - **Google Hashcode** 2022 : Global rank 2990 , India rank 1204
 - 30 Days of Google Cloud Platform(Completed both the tracks and gained knowledge).
+- Joint secretary @AutoRobClub HBTU
