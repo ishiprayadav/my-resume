@@ -80,12 +80,4 @@ An app to display Meals according to different Cusines alongwith various filters
 - **Pupil** at Codeforces (max. 1220) & Codechef (max. 1796) , **Top 20%** at LeetCode globally
 - **Google Hashcode** 2022 : Global rank 2990 , India rank 1204
 - **Rank 2** in **CodeChef HBTU Chapter** programming contest hosted on CodeChef. Won limited edition CodeChef water bottle  
-- Certified in Problem Solving (Basic) HackerRank 
-- Completed both the tracks of 30 Days of Google Cloud Platform & gained experience in tools like cloud shell, BigQuery, Cloud buckets, SQL, Compute Engines etc
-- Certified by **Milvus.io** for resolving issues in their GitHub repo & website during the Hacktoberfest 2021
-- Certified in Git (Version Control System) / GitHub by **LinkedIn Skill Assesment** and **Google**
-
----
-
-- Global Rank **148 of 21000+** CodeChef Starters 19 (Div.3)
-- Global Rank **1171 of 17000+** LeetCode BiWeekly contest 71 
+- 30 Days of Google Cloud Platform | Certified by **Milvus.io** Open source Contribution | Certified by **Google** & **Linkedin** Git & Version Control Systems
